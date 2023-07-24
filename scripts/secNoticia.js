@@ -13,7 +13,7 @@ const allNoticias = [{
 }, {
     url: "./src/imgNoticias/barbieEKneconzinheiro.png",
     newsType: "Frete gratis",
-    msg: "Atenção!!! Frete gratis na compra do Ken e Barbie cozinheiros."
+    msg: "Atenção!!!! Frete gratis na compra do Ken e Barbie cozinheiros."
 }]
 
 secNoticias.innerHTML = allNoticias.map(noticias => {

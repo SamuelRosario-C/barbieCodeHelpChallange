@@ -41,10 +41,6 @@ const allFilmes = [{
     nameFilmes: "Princessa e Popstar"
 }]
 
-filmesBtn.addEventListener('click', () => {
-    filmes.setAttribute('style', 'display:flex;')
-    series.setAttribute('style', 'display:none;')
-})
     filmes.innerHTML = allFilmes.map(filmes => {
         return `
     
@@ -75,11 +71,6 @@ const allSeries = [{
     nameSeries: "Princesses Power"
 }]
 
-seriesBtn.addEventListener('click', () => {
-    series.setAttribute('style', 'display:flex;')
-    filmes.setAttribute('style', 'display:none;')
-
-})
 
 series.innerHTML = allSeries.map(series => {
     return `

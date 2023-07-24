@@ -1,3 +1,6 @@
+const secNoticias = document.querySelector(".secNoticias")
+const secFilmesSeries = document.querySelector(".secFilmesSeries")
+
 const allNoticias = [{
     url: "./src/imgNoticias/ingressosparabarbie.jpg",
     newsType: "Filme Barbie Ingressos",

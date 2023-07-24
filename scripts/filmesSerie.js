@@ -44,7 +44,7 @@ const allFilmes = [{
 filmesBtn.addEventListener('click', () => {
     filmes.setAttribute('style', 'display:flex;')
     series.setAttribute('style', 'display:none;')
-
+})
     filmes.innerHTML = allFilmes.map(filmes => {
         return `
     
@@ -54,7 +54,6 @@ filmesBtn.addEventListener('click', () => {
             </div>
     `
     }).join('');
-})
 
 const allSeries = [{
     imgSeries: "/src/imgSerieBarbie/LifeintheDreamhouse.jpg",
@@ -80,8 +79,10 @@ seriesBtn.addEventListener('click', () => {
     series.setAttribute('style', 'display:flex;')
     filmes.setAttribute('style', 'display:none;')
 
-    series.innerHTML = allSeries.map(series => {
-        return `
+})
+
+series.innerHTML = allSeries.map(series => {
+    return `
     
             <div class="filmesSeries">
                 <img src="${series.imgSeries}" alt="filme ou serie">
@@ -89,5 +90,4 @@ seriesBtn.addEventListener('click', () => {
             </div>
 
     `
-    }).join('');
-})
+}).join('');

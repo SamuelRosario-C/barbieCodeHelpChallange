@@ -6,19 +6,12 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgba(255, 162, 209, 1) 0%, rgba(255, 61, 156, 1) 100%);
+    background: linear-gradient(90deg, rgba(255,162,209,1) 0%, rgba(255,61,156,1) 100%);
 }
 
 .container {
 
     width: 100%;
-}
-
-.container h1 {
-    text-align: center;
-    color: #ffffff;
-    
-margin-top: 5rem;
 }
 
 /* HEADER */

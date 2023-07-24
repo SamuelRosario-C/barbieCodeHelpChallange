@@ -16,17 +16,17 @@
         <header class="cabecalho">
             <img class="logo" src="./src/imgNav/barbie.png" alt="logo Barbie">
             <nav class="navLinks">
-                <a id="noticias" href="#">Barbie</a>
-
+                <a id="noticias" href="#">Noticias</a>
+                <a id="filmesSeries" href="#">Filmes/Séries</a>
             </nav>
             <img class="logo" src="./src/imgNav/codehelp.png" alt="logo CodeHelp">
         </header>
         <!-- NOTICIAs BARBIE -->
-        <h1>Noticias</h1>
         <section class="secNoticias">
+
         </section>
         <!-- FILMES e SERIES -->
-        <section class="secFilmesSeries">
+        <section style="display: none;" class="secFilmesSeries">
             <div class="backgroundFilmAndserie">
                 <div class="row">
                     <div class="background">
@@ -2733,24 +2733,24 @@
             </div>
 
             <div class="boxFilmeSerie">
-                <h1>Filmes</h1>
-                <!-- filmes -->
+                <div class="buttonFilmesSeries">
+                    <button id="filmesBtn">Filmes</button>
+                    <button id="seriesBtn">Series</button>
+                </div>
                 <div id="filmes" class="allFilmesSeries">
-                    
                 </div>
 
-                <h1>Series</h1>
-                <!-- series -->
+
                 <div id="series" class="allFilmesSeries">
-                
+
                 </div>
             </div>
         </section>
+
     </main>
 
     <script src="./scripts/links.js"></script>
-    <script src="./scripts/secNoticia.js"></script>
-    <script src="./scripts/filmesSerie.js"></script>
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>

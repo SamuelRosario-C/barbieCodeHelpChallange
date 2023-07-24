@@ -1,0 +1,129 @@
+/* background animated */
+
+.backgroundFilmAndserie {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff768d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.backgroundFilmAndserie .row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    white-space: normal;
+    margin-left: 2rem;
+
+}
+
+.backgroundFilmAndserie svg {
+    height: 4vw;
+    min-height: 2rem;
+    width: 3.5rem;
+    fill: #ffdce2;
+    transition: 1.5s;
+    padding: 0 5px;
+    user-select: none;
+
+
+}
+
+.backgroundFilmAndserie svg:hover {
+    transition: 0s;
+    fill: #fd2a4d;
+    text-shadow: 0 0 120px #ff4463;
+
+}
+
+/* Filmes E Series Button */
+.boxFilmeSerie {
+    z-index: 3;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttonFilmesSeries {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.buttonFilmesSeries button {
+    text-decoration: none;
+    line-height: 1rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    color: #ff768d;
+    background-color: #ffe7ea;
+    box-shadow: 0 0 0.2rem #ff768d;
+    height: 1.5rem;
+    width: 5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonFilmesSeries button:hover {
+    box-shadow: 0 0 1rem #ff002b;
+}
+
+/* Filmes E Series */
+
+.allFilmesSeries {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.filmesSeries {
+    margin: 1rem 0.5rem;
+    background-color: #ffdce2;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 1rem #ff3b5c;
+    cursor: pointer;
+}
+
+.filmesSeries:hover {
+    box-shadow: 0 0 1rem #ffffff;
+}
+
+.filmesSeries img {
+    width: 40vw;
+    max-width: 12rem;
+}
+
+.filmesSeries p {
+    font-size: 0.5rem;
+    text-align: center;
+    padding-bottom: 0.4rem;
+    color: #ff3b5c;
+}
+
+@media (min-width: 430px) {
+    .filmesSeries p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 266px) {
+    .filmesSeries p {
+        font-size: 0.4rem;
+        text-align: center;
+    }
+}

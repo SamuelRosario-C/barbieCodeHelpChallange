@@ -74,7 +74,6 @@ const allSeries = [{
 
 series.innerHTML = allSeries.map(series => {
     return `
-    
             <div class="filmesSeries">
                 <img src="${series.imgSeries}" alt="filme ou serie">
                 <p>${series.nameSeries}</p>

@@ -47,6 +47,7 @@ secNoticias.innerHTML = allNoticias.map(noticias => {
             <p>${noticias.msg}</p>
         </div>
     `
+
 }).join('');
 
 
@@ -142,3 +143,6 @@ seriesBtn.addEventListener('click', () => {
     `
     }).join('');
 })
+
+
+

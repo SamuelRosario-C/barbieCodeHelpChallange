@@ -5,7 +5,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #ff768d;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,33 +14,37 @@
     z-index: -1;
 }
 
-.backgroundFilmAndserie .row {
-    position: relative;
-    width: 100%;
+
+.background {
     display: flex;
-    padding: 10px 0;
-    white-space: normal;
-    margin-left: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .backgroundFilmAndserie svg {
-    height: 4vw;
-    min-height: 2rem;
+    height: 3.5rem;
     width: 3.5rem;
+    margin: 0.2rem;
     fill: #ffdce2;
-    transition: 1.5s;
     padding: 0 5px;
     user-select: none;
-
-
+    animation: blink 5s infinite linear;
 }
 
-.backgroundFilmAndserie svg:hover {
-    transition: 0s;
-    fill: #fd2a4d;
-    text-shadow: 0 0 120px #ff4463;
+@keyframes blink {
+    0%, 50%, 100% {
+        fill: #cf2784;
+    }
 
+    50% {
+        fill: #f35ab9;
+    }
+
+    100% {
+        fill: #be2f88;
+    }
 }
 
 /* Filmes E Series Button */
@@ -71,8 +75,10 @@
     color: #ff768d;
     background-color: #ffe7ea;
     box-shadow: 0 0 0.2rem #ff768d;
-    height: 1.5rem;
-    width: 5rem;
+    height: 4vh;
+    min-height: 2rem;
+    width: 20vw;
+    max-width: 10rem;
     border: none;
     cursor: pointer;
 }

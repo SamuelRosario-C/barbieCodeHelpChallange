@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgba(255,162,209,1) 0%, rgba(255,61,156,1) 100%);
+    background: linear-gradient(90deg, rgba(255, 162, 209, 1) 0%, rgba(255, 61, 156, 1) 100%);
 }
 
 .container {
@@ -52,6 +52,10 @@ body {
     color: #ff768d;
     background-color: #ffe7ea;
     box-shadow: 0 0 0.2rem #ff768d;
+    width: 25vw;
+    height: 5vh;
+    font-size: 0.7rem;
+    min-height: 2rem;
 }
 
 .navLinks a:hover {
@@ -65,8 +69,6 @@ body {
 
     .navLinks a {
         font-size: 0.8rem;
-        height: 5vh;
-        width: 20vw;
         max-width: 10rem;
 
     }
